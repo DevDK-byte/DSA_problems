@@ -24,9 +24,9 @@ using namespace std;
 void bubbleSort(int arr[],int n)
 {
     int pass = 1;
-    int u = n-pass; //calculates each pass iteration
     while(true){
     bool swapped = false;
+    int u = n-pass; //calculates each pass iteration
     for(int i=0; i<u; i++)
     {
         if(arr[i]>arr[i+1])
@@ -53,3 +53,4 @@ int main()
     }
     return 0;
 }
+
